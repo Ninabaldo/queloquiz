@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QLQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d35e1b0335.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">¡Introduce un nombre para guardar tu puntuación!</h2>
+                <input type="text" name="name" id="username" placeholder="Introduce un nombre...">
+                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Guardar</button>
+            </form>
+            <a href="/quiz.html" class="btn">Jugar de nuevo</a>
+            <a href="/" class="btn">Volver al inicio<i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="final.js"></script>
+</body>
+</html>
